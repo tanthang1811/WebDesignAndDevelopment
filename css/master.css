@@ -46,4 +46,68 @@ body{
 .progress{
     margin-top: 2%;
     margin-bottom: 2%;
+    border-radius: 2em;
+}
+.skill-bars p{
+    font-weight: 600;
+}
+#services{
+    background-image: url(img/gradienttrick.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+#services h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+#services h1::after{
+    content: '';
+    background-color: white;
+    display: block;
+    height: 1%;
+    width: 40%;
+    margin: 3% auto 2%;
+}
+.services{
+    margin-top: 5%;
+}
+.icon{
+    font-size: 3em;
+    margin: 1% auto;
+    padding: 5%;
+    height: 2em;
+    width: 5em;
+}
+#services p{
+    font-size: 1em;
+    margin-top: 2em;
+}
+.services .col-md-3:hover{
+    background-color: #2A50FF;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#team{
+    padding-top: 5%;
+    padding-bottom: 50%;
+}
+.profile-pic{
+    margin-top: 5%;
+}
+.profile-pic .img-box{
+    display: block;
+    position: relative;
+    opacity: 1;
+}
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
 }
