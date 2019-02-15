@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+#com_logo{
+    width: 4em;
+    margin-left: 2em;
+}
+.navbar-nav{
+    margin-right: 4em;
+    
+}
+.nav-link{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.nav-link:hover{
+    color: blue!important;
+}
+.carousel-item{
+    height: 30em;
+    width: 100%;
+}
+.carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    font-size: 3em;
+    color: black;
+}
