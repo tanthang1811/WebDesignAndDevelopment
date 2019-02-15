@@ -70,8 +70,9 @@ body{
     background-color: white;
     display: block;
     height: 1%;
-    width: 40%;
-    margin: 3% auto 2%;
+    width: 15%;
+    margin: 1% auto 2%;
+    border-bottom: 2px solid white;
 }
 .services{
     margin-top: 5%;
@@ -94,7 +95,7 @@ body{
 }
 #team{
     padding-top: 5%;
-    padding-bottom: 50%;
+    padding-bottom: 10%;
 }
 .profile-pic{
     margin-top: 5%;
@@ -106,8 +107,107 @@ body{
 }
 .profile-pic .img-box img{
     filter: grayscale(1);
+    width: 80%;
 }
 .profile-pic .img-box img:hover{
     filter: grayscale(0);
     cursor: pointer;
 }
+.profile-pic h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10%;
+}
+.profile-pic h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#team .fab{
+    
+    padding: 0.5em;
+    background: white;
+    color: #007bff;
+    border-radius: 50%;
+}
+#team h1{
+    text-align: center;
+}
+#team h1::after{
+    content: '';
+    background-color: blue;
+    display: block;
+    height: 1%;
+    width: 15%;
+    margin: 1% auto 2%;
+    border-bottom: 2px solid blue;
+}
+.img-box ul{
+    
+    padding: 1em 0em;
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li{
+    display: inline-block;
+}
+.img-box ul:hover{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+#contact{
+    background-color: #EFEFEF;
+}
+#contact .form-control{
+    border: none;
+}
+.follow{
+    background: #fff;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 3%;
+}
+#contact h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#contact h1::after{
+    content: '';
+    background-color: aqua;
+    display: block;
+    height: 1%;
+    width: 15%;
+    margin: 1% auto 2%;
+    border-bottom: 2px solid aqua;
+}
+#foot{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.col-md-12 h2{
+    text-align: center;
+}
+.col-md-12 h2::after{
+    content: '';
+    background-color: blue;
+    display: block;
+    height: 1%;
+    width: 15%;
+    margin: 1% auto 2%;
+    border-bottom: 2px solid blue;
+}
+
