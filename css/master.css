@@ -1,56 +1,82 @@
 
-body{
-    background-color: white;
-}
-#com_logo{
-    width: 4em;
+/*Resize the companies logo to
+make it fit the navbar*/
+#companies_logo{
+    /*Resize the width to 8em*/
+    width: 8em;
+    /*Push the icon away from the left*/
     margin-left: 2em;
 }
+/*Align the navbar so that it looks nice*/
 .navbar-nav{
+    /*Push the icon away from the right*/
     margin-right: 4em;
-    
 }
+/*Make to the navbar item become more beautiful*/
 .nav-link{
+    /*Switch the font type to one of the fonts below*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*Set the font weight to bold*/
     font-weight: bold;
+    /*Set the font size to 1 em*/
     font-size: 1em;
 }
+/*Make the navbar to interact with the user
+whenever the user hover over them*/
 .nav-link:hover{
+    /*Change to the text color to blue*/
     color: blue!important;
 }
+/*Resize the slide show image*/
 .carousel-item{
+    /*Set the max height of the 
+    slider to 30em*/
     max-height: 30em;
+    /*Set the width to 100 percents*/
     width: 100%;
 }
+/*Allow the slide show picture 
+caption to be center*/
 .carousel-caption{
     top:50%;
     transform: translateY(-50%);
     bottom: initial!important;
 }
+/*Design the caption*/
 .carousel-caption h5{
     font-size: 3em;
     color: red;
 }
+/*Create padding for about section*/
 #about{
     padding-top: 2%;
     padding-bottom: 2%;
 }
+/*Create margin for the read more
+button in the about section*/
 #about .btn{
     margin-top: 2%;
     margin-bottom: 2%;
 }
+/*Design the about content in the
+about section*/
 #about .about-content{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+/*Design progress bar make the 
+progress bar looks better*/
 .progress{
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 2em;
 }
+/*Fixed the font weight of the 
+skill bar title*/
 .skill-bars p{
     font-weight: 600;
 }
+/*Design the services section*/
 #services{
     background-image: url(img/gradienttrick.jpg);
     background-size: cover;
@@ -60,11 +86,15 @@ body{
     padding-top: 5%;
     padding-bottom: 15%;
 }
+/*Make the services title centered and
+change it color to white*/
 #services h1{
     text-align: center;
     color: white;
     padding-bottom: 2%;
 }
+/*Make a white border at the bottom of the 
+services title*/
 #services h1::after{
     content: '';
     background-color: white;
@@ -74,9 +104,12 @@ body{
     margin: 1% auto 2%;
     border-bottom: 2px solid white;
 }
+/*Make the service row has a 5% margin
+at the top*/
 .services{
     margin-top: 5%;
 }
+/*Resize the icon to make it fix in the box*/
 .icon{
     font-size: 3em;
     margin: 1% auto;
@@ -84,46 +117,59 @@ body{
     height: 2em;
     width: 5em;
 }
+/*Design the font of the service description*/
 #services p{
     font-size: 1em;
     margin-top: 2em;
 }
+/*Make the services has a blue background
+whenever the user hover over it*/
 .services .col-md-3:hover{
     background-color: #2A50FF;
     cursor: pointer;
     transition: 0.7s;
 }
+/*Adding some padding to the our team section*/
 #team{
     padding-top: 5%;
     padding-bottom: 10%;
 }
+/*Adding some margin on the profile pic*/
 .profile-pic{
     margin-top: 5%;
 }
+/*Changing the display and position of the image box*/
 .profile-pic .img-box{
     display: block;
     position: relative;
     opacity: 1;
 }
+/*Make the image turn gray
+and resize the image width*/
 .profile-pic .img-box img{
     filter: grayscale(1);
     width: 80%;
 }
+/*Make the image return to its
+original form*/
 .profile-pic .img-box img:hover{
     filter: grayscale(0);
     cursor: pointer;
 }
+/*Design the portfolio description*/
 .profile-pic h2{
     font-size: 2em;
     font-weight: bold;
     color: #007bff;
     margin-top: 10%;
 }
+/*Design the portfolio description*/
 .profile-pic h3{
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 5%;
 }
+/*Design the social media link*/
 #team .fab{
     
     padding: 0.5em;
@@ -131,9 +177,12 @@ body{
     color: #007bff;
     border-radius: 50%;
 }
+/*Align the our team header in the center*/
 #team h1{
     text-align: center;
 }
+/*Make a bottom border below the our team header
+with a blue color*/
 #team h1::after{
     content: '';
     background-color: blue;
@@ -143,6 +192,8 @@ body{
     margin: 1% auto 2%;
     border-bottom: 2px solid blue;
 }
+/*Align the whole unordered list that contains
+the social media icons into the image*/
 .img-box ul{
     
     padding: 1em 0em;
@@ -153,32 +204,35 @@ body{
     transform: translateX(-50%);
     opacity: 0;
 }
+/*Fix the display of the list and list item to inline block*/
 .img-box ul li{
     display: inline-block;
 }
+/*Make the social media icons to display when
+hover over them*/
 .img-box ul:hover{
     opacity: 1;
 }
+/*Delay the apperance of the social media icons to 0.5 second*/
 .img-box ul, .img-box ul li{
     transition: 0.5s;
 }
+/*Set a grey background for the contact section*/
 #contact{
     background-color: #EFEFEF;
 }
+/*Remove the border form all of the text fields*/
 #contact .form-control{
     border: none;
 }
-.follow{
-    background: #fff;
-    padding: 0.5em;
-    border-radius: 1em;
-    margin-bottom: 3%;
-}
+/*Align the contact section title
+to the center and add in margin*/
 #contact h1{
     text-align: center;
     margin-top: 2%;
     margin-bottom: 5%;
 }
+/*Create a border at the bottom of the title with aqua color*/
 #contact h1::after{
     content: '';
     background-color: aqua;
@@ -187,6 +241,14 @@ body{
     width: 15%;
     margin: 1% auto 2%;
     border-bottom: 2px solid aqua;
+}
+/*Create a box that contains
+all of the contact information*/
+.follow{
+    background: #fff;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 3%;
 }
 #foot{
     width: 100%;

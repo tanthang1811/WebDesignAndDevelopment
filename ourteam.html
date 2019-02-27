@@ -1,36 +1,49 @@
 <!DOCTYPE html>
+<!--HTML tag declaration-->
 <html lang="en" dir="ltr">
+  <!--The head of the html tag-->
   <head>
+    <!--Set the char to utf-8-->
     <meta charset="utf-8">
+    <!--Create meta viewport to make the website responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap framework declaration-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--Fontawesome declaration-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!--Personal style sheet link-->
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/index.css">
+    <!--Title of the webpage-->
     <title>Designveloper</title>
   </head>
   <body>
+    <!--The header of the website-->
     <header>
       <!--Navigator-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img id="com_logo" src="img/designveloper-logo.png" alt="Companies Logo"></a>
+        <!--The company logo-->
+        <a class="navbar-brand" href="#"><img id="companies_logo" src="img/designveloper-logo.png" alt="Companies Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
+              <!--Home navbar item-->
             <li class="nav-item">
               <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+              <!--About navbar item-->
+            <li class="nav-item ">
               <a class="nav-link" href="about.html">ABOUT</a>
             </li>
+              <!--Contact navbar item-->
             <li class="nav-item">
               <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
+              <!--Our Team navbar item-->
             <li class="nav-item  active">
                 <a class="nav-link" href="ourteam.html">OUR TEAM</a>
               </li>
@@ -39,6 +52,7 @@
       </nav>
       <!--Header Sliders-->
       <div class="bd-example">
+        <!--The slideshow-->
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -46,18 +60,21 @@
               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
+              <!--Slideshow item 1-->
               <div class="carousel-item active">
                 <img src="img/Approach-Guy-Working-How.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>How To Design A Website</h5>
                 </div>
               </div>
+              <!--Slideshow item 2-->
               <div class="carousel-item">
                 <img src="img/business-meetings-03.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>How To Create A Responsive Website</h5>
                 </div>
               </div>
+              <!--Slideshow item 3-->
               <div class="carousel-item">
                 <img src="img/slideshow.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -65,77 +82,98 @@
                 </div>
               </div>
             </div>
+            <!--Slideshow previous picture functionality-->
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
+            <!--Slideshow next picture functionality-->
             <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
           </div>
         </div>
-    </header>  
-   <!--Team Members-->
+    </header>
+   <!--Team Members Section-->
    <section id="team">
       <div class="container">
+        <!--Team members section header-->
         <h1>Our Team</h1>
+        <!--Automatically generate a new row on the website-->
         <div class="row">
+          <!--Automatically generate a new
+            column with 3 colspan-->
           <div class="col-md-3 profile-pic text-center">
+            <!--A profile image of a team member-->
             <div class="img-box">
-              <img src="img/adam-bryant-headshot-square320-v2.jpg" alt="">
+              <img src="img/adam-bryant-headshot-square320-v2.jpg" alt="alexander's potrait">
               <ul>
                 <a href=""><li><i class="fab fa-facebook"></i></li></a>
                 <a href=""><li><i class="fab fa-twitter"></i></li></a>
                 <a href=""><li><i class="fab fa-linkedin"></i></li></a>
               </ul>
             </div>
+            <!--Team member portfolio-->
             <h2>Alexander Sanderson</h2>
             <h3>CEO / Founder Full-Stack Developer</h3>
           </div>
+          <!--Automatically generate a new
+            column with 3 colspan-->
           <div class="col-md-3 profile-pic text-center">
+            <!--A profile image of a team member-->
             <div class="img-box">
-              <img src="img/Profile-Interview-Photo---Fiona-Gray.jpg" alt="">
+              <img src="img/Profile-Interview-Photo---Fiona-Gray.jpg" alt="fiona's potrait">
               <ul>
                 <a href=""><li><i class="fab fa-facebook"></i></li></a>
                 <a href=""><li><i class="fab fa-twitter"></i></li></a>
                 <a href=""><li><i class="fab fa-linkedin"></i></li></a>
               </ul>
             </div>
+            <!--Team member portfolio-->
             <h2>Fiona Gray</h2>
             <h3>CoFounder Front-End Developer</h3>
           </div>
+          <!--Automatically generate a new
+            column with 3 colspan-->
           <div class="col-md-3 profile-pic text-center">
+            <!--A profile image of a team member-->
             <div class="img-box">
-              <img src="img/testIMG1528182709.jpg" alt="">
+              <img src="img/testIMG1528182709.jpg" alt="joshua's potrait">
               <ul>
                 <a href=""><li><i class="fab fa-facebook"></i></li></a>
                 <a href=""><li><i class="fab fa-twitter"></i></li></a>
                 <a href=""><li><i class="fab fa-linkedin"></i></li></a>
               </ul>
             </div>
+            <!--Team member portfolio-->
             <h2>Joshua Gray</h2>
             <h3>CoFounder Back-End Developer</h3>
           </div>
+          <!--Automatically generate a new
+            column with 3 colspan-->
           <div class="col-md-3 profile-pic text-center">
+            <!--A profile image of a team member-->
             <div class="img-box">
-              <img src="C:\Users\Administrator\Desktop\DWD Assignment 2\Website Design\img\A_Cochrane_300x300.jpg" alt="">
+              <img src="img\A_Cochrane_300x300.jpg" alt="william's potrait">
               <ul>
                 <a href=""><li><i class="fab fa-facebook"></i></li></a>
                 <a href=""><li><i class="fab fa-twitter"></i></li></a>
                 <a href=""><li><i class="fab fa-linkedin"></i></li></a>
               </ul>
             </div>
+            <!--Team member portfolio-->
             <h2>William Johnson</h2>
             <h3>UI/UX Expert and Consultant</h3>
           </div>
         </div>
       </div>
     </section>
-  </body>
-  <footer>
+    <footer>
       <div id="foot">
         <p>Made by Nguyễn Tấn Thắng</p>
       </div>
   </footer>
+  </body>
+
 </html>
